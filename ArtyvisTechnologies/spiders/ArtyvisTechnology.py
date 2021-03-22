@@ -20,7 +20,7 @@ class ArtyvistechnologySpider(scrapy.Spider):
             d.append({
                 'image': info.xpath('.//a/div[1]/img/@data-original').extract()[0],
                 'desc': info.xpath('.//a/div[2]/p/text()').get(),
-                'price': info.xpath('.//a/div[3]/span[1]/text()').get()
+                'price': float(info.xpath('.//a/div[3]/span[1]/text()').get()[1:])
             })
         yield {
             response.url.split('/')[5]: d
