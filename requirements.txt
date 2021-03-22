@@ -11,6 +11,8 @@ itemadapter==0.2.0
 itemloaders==1.0.4
 jmespath==0.10.0
 lxml==4.6.3
+numpy==1.20.1
+pandas==1.2.3
 parsel==1.6.0
 pip==21.0.1
 Protego==0.1.16
@@ -19,10 +21,12 @@ pyasn1==0.4.8
 pycparser==2.20
 PyDispatcher==2.0.5
 pyOpenSSL==20.0.1
+python-dateutil==2.8.1
+pytz==2021.1
 queuelib==1.5.0
 Scrapy==2.4.1
 service-identity==18.1.0
-setuptools==54.1.2
+setuptools==54.2.0
 six==1.15.0
 twisted-iocpsupport==1.0.1
 Twisted==21.2.0
